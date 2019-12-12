@@ -10,7 +10,7 @@ int main()
 	cin >> z >> y >> n;
 	s = 0;
 	k = 0;
-	for (x = 1; x <= n, x++)
+	for (x = 1; x <= n; x++)
 	{
 		f = pow(x, 2) / z - pow(z, 3) / pow(x + y, 2) + pow(x, 2) * pow(2 - y, 2) / pow(x + 2, 2);
 		cout << "F=" << f << endl;
